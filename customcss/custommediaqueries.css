@@ -1,0 +1,18 @@
+
+
+@media (max-width: 576px) 
+
+{ .column-footer-info{height: 10vh;}
+.a-info{ font-size: 0.7rem;}
+.a-info:hover{font-size: 0.71rem;}
+.a-info:active{color: #617a20;}
+
+.copyright{font-size: 0.8rem ; }
+
+.footer-bottom{height: 5vh;}}
+
+
+@media (min-width: 992px) 
+/* media que dismnuye al 50% el largo del contenedor que tiene la info pra poder centrarla con flex */
+{ .container-info{width: 50% !important;} }
+/* media que dismnuye al 50% el largo del contenedor que tiene la info pra poder centrarla con flex */

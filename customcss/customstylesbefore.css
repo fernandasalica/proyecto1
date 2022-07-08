@@ -1,0 +1,78 @@
+
+/* efecto hover y after que hace aparecer sobre los iconos de las redes una viñeta con sus
+respectivos nombres  */
+ 
+/* viñeta-facebook */
+.icon-before-facebook{position: relative;}
+.icon-before-facebook:hover::before{content: "Facebook"; position: absolute; display: block; background-color: black;
+color: white; width: 3.5rem; height: 1.5rem; top: -2.3rem; font-size: 0.6rem; display: flex;align-items: center;
+justify-content: center; left: -0.3rem; border-radius: 5px;}
+.icon-before-facebook:hover::after{content: ""; display: block; position: absolute; border-top:10px solid black ;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+top: -1.125rem; left: 27%;}
+/* viñeta-facebook */
+
+/* viñeta-twitter */
+.icon-before-twitter{position: relative;}
+.icon-before-twitter:hover::before{content: "Twitter"; position: absolute; display: block; background-color: black;
+color: white; width: 3.5rem; height: 1.5rem; top: -2.3rem; font-size: 0.6rem; display: flex;align-items: center;
+justify-content: center; left: -0.3rem; border-radius: 5px;}
+.icon-before-twitter:hover::after{content: ""; display: block; position: absolute; border-top:10px solid black ;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+top: -1.125rem; left: 27%;}
+/* viñeta-twitter */
+
+/* viñeta-instagram */
+.icon-before-instagram{position: relative;}
+.icon-before-instagram:hover::before{content: "Instagram"; position: absolute; display: block; background-color: black;
+color: white; width: 3.5rem; height: 1.5rem; top: -2.3rem; font-size: 0.6rem; display: flex;align-items: center;
+justify-content: center; left: -0.5rem; border-radius: 5px;}
+.icon-before-instagram:hover::after{content: ""; display: block; position: absolute; border-top:10px solid black ;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+top: -1.125rem; left: 23.5%;}
+/* viñeta-instagram */
+
+/* viñeta-whatsapp */
+.icon-before-whatsapp{position: relative;}
+.icon-before-whatsapp:hover::before{content: "WhatsApp"; position: absolute; display: block; background-color: black;
+color: white; width: 3.5rem; height: 1.5rem; top: -2.3rem; font-size: 0.6rem; display: flex;align-items: center;
+justify-content: center; left: -0.3rem; border-radius: 5px;}
+.icon-before-whatsapp:hover::after{content: ""; display: block; position: absolute; border-top:10px solid black ;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+top: -1.125rem; left: 29.5%;}
+/* viñeta-whatsapp */
+
+/* viñeta-linkedin */
+.icon-before-linkedin{position: relative;}
+.icon-before-linkedin:hover::before{content: "Linkedin"; position: absolute; display: block; background-color: black;
+color: white; width: 3.5rem; height: 1.5rem; top: -2.3rem; font-size: 0.6rem; display: flex;align-items: center;
+justify-content: center; left: -0.3rem; border-radius: 5px;}
+.icon-before-linkedin:hover::after{content: ""; display: block; position: absolute; border-top:10px solid black ;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+top: -1.125rem; left: 29.5%;}
+/* viñeta-linkedin */
+
+/* viñeta-gmail */
+.icon-before-gmail{position: relative;}
+.icon-before-gmail:hover::before{content: "Gmail"; position: absolute; display: block; background-color: black;
+color: white; width: 3.5rem; height: 1.5rem; top: -2.3rem; font-size: 0.6rem; display: flex;align-items: center;
+justify-content: center; left: -0.3rem; border-radius: 5px;}
+.icon-before-gmail:hover::after{content: ""; display: block; position: absolute; border-top:10px solid black ;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+top: -1.125rem; left: 25%;}
+/* viñeta-gmail */
+
+/* efecto hover y after que hace aparecer sobre los iconos de las redes una viñeta con sus
+respectivos nombres  */

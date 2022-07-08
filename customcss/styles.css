@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* INICIO SECCION BLOG */
+.boton {
+    background: #ACCF51;
+}
+
+.imagen-blog {
+    width: 100%;
+}
+
+/* FIN SECCION BLOG */
+
+/* INICIO SECCION CATEGORIAS */
+.lista {
+    color: #617020;
+    text-decoration: none;
+}
+
+.lista:hover {
+    color: gray;
+}
+/* INICIO SECCION CATEGORIAS */
+
+/* INICIO SECCION NEWSLETTER */
+.newsletter {
+    background: url('../img/feed-7.jpg') no-repeat center center/cover;
+    padding: 0;
+    max-width: 100vw;
+}
+.newsletter .fondo {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 5rem 0 7rem;
+}
+
+.formulario input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.boton-hover:hover{
+    color:white;
+}
+
+/* FIN SECCION NEWSLETTER */
+
+/* INICIO SECCION COMENTARIOS */
+.logo-usuario {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: black;
+}
+
+.parrafo p {
+    margin: 0;
+}
+/* FIN SECCION COMENTARIOS */
+
+@media (max-width:720px) {
+    .img-arandano {
+        width: 250px;
+        height: 250px;
+    }
+
+    .imagen-logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
