@@ -12,16 +12,39 @@ body {
 
 }
 
-/* INICIO SECCION BLOG */
+
+/* modal */
+.nav-modal-iconchiquito{color: #ACCF51; font-size: 0.7rem; margin-left: 0.2rem;}
+.nav-modal-letrachiquita{font-size: 0.7rem; margin-left: 0.5rem;}
+.nav-modal-margennegativo-1{margin-top: -1.4rem;}
+.nav-modal-caja-sexo {height: 2.3rem; width: 100% !important; border:0.5px solid rgb(211, 200, 200); border-radius: 5px;}
+.nav-modal-check {margin-bottom: 0.25rem;}
+.nav-modal-margennegativo-2{margin-top: -1.1rem; padding-left: 0.75rem;  }
+.nav-modal-margennegativo-3{margin-bottom: -2rem;}
+.nav-modal.hr{height: 1px;}
+.modal-backdrop{position: unset !important;}
+/* modal */
+
+.btn-nav{background-color: #ACCF51;} 
+.btn-nav:hover{background-color:#617a20 !important; color: white;}
+@media (max-width: 992px){.btn-nav{width: 35% !important;}}
+/* navbar */
+
+/* INICIO SECCION NAVBAR */
 .boton {
     background: #ACCF51;
+    color:black;
 }
 
-.imagen-blog {
-    width: 100%;
+.boton a {
+    color: black;
 }
 
-/* FIN SECCION BLOG */
+.boton a:hover {
+    color: white;
+}
+
+/* FIN SECCION NAVBAR */
 
 /* INICIO SECCION CATEGORIAS */
 .lista {
@@ -52,6 +75,7 @@ body {
     margin: 0 auto;
     padding: 10px;
 }
+
 .boton-hover:hover{
     color:white;
 }
@@ -69,7 +93,14 @@ body {
 .parrafo p {
     margin: 0;
 }
-/* FIN SECCION COMENTARIOS */
+
+/* INICIO SECCION COMENTARIOS */
+
+/* INICIO SECCION BLOG */
+.imagen-blog {
+    width: 100%;
+}
+/* INICIO SECCION BLOG */
 
 @media (max-width:720px) {
     .img-arandano {

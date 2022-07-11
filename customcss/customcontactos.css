@@ -1,0 +1,14 @@
+
+
+.contactos-contenedor{height: 85vh;}
+
+.icon{color: #ACCF51;}
+.icon-c{width: 4rem;}
+.icon-user{margin-left: 1px;}
+
+.btn-enviar{background-color: #ACCF51;}
+.btn-enviar:hover{background-color:#617a20; color: white;}
+
+.titulos-contacto{color: #ACCF51;}
+
+.ubicacion{margin-bottom: 8rem;}
