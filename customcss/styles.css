@@ -46,6 +46,28 @@ body {
 
 /* FIN SECCION NAVBAR */
 
+/* FIN SECCION SLIDER */
+.imagen-slider1 {
+    background-image: url("../img/hero1.jpg");  
+    background-size: cover;
+    height: 100vh;
+}
+
+.imagen-slider2 {
+    background-image: url("../img/hero2.jpg"); 
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.imagen-slider3 {
+    background-image: url("../img/hero3.jpg"); 
+    background-size: cover;
+    height: 100vh;
+
+}
+/* FIN SECCION SLIDER */
+
 /* INICIO SECCION CATEGORIAS */
 .lista {
     color: #617020;
@@ -102,6 +124,12 @@ body {
 }
 /* INICIO SECCION BLOG */
 
+/* INICIO LOGIN */
+.ensalada {
+    height: 100%;
+  }
+/* FIN LOGIN */
+
 @media (max-width:720px) {
     .img-arandano {
         width: 250px;
@@ -112,4 +140,5 @@ body {
         display: flex;
         justify-content: flex-start;
     }
+    
 }

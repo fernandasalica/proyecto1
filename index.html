@@ -29,7 +29,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
               <li class="nav-item">
-                <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="#">Login</a></button>
+                <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="./login.html">Login</a></button>
               </li>
               <li class="nav-item">
                  <!-- boton modal -->
@@ -143,7 +143,7 @@
 
                             <div class=" col-12 d-flex align-items-center justify-content-center">
 
-                              <button type="submit" class="btn btn-nav border-success border-success">Suscribirte</button>
+                              <button type="submit" formaction="./error.html" class="btn btn-nav border-success border-success">Suscribirte</button>
 
                             </div>
                           </div>
@@ -160,7 +160,10 @@
                 <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="./contacto.html">Contacto</a></button>
               </li>
               <li class="nav-item">
-                <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="./acercade.html">Sobre nosotros</a></button>
+                <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="./acercade.html">Quiénes Somos</a></button>
+              </li>
+              <li class="nav-item">
+                <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="./galeria.html">Galería</a></button>
               </li>
             </ul>
           </div>
@@ -179,13 +182,13 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./img/hero1.jpg" class="d-block w-100" alt="...">
+              <img src="" class="d-block w-100 imagen-slider1" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./img/hero2.jpg" class="d-block w-100" alt="...">
+              <img src="" class="d-block w-100 imagen-slider2" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./img/hero3.jpg" class="d-block w-100" alt="...">
+              <img src="" class="d-block w-100 imagen-slider3" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -254,7 +257,7 @@
               </div>
                 <form action="" class="my-3 mx-2">
                     <input type="search" name="busqueda" placeholder="¿Qué estás buscando?...">
-                    <input type="submit" value="Buscar">
+                    <input type="submit" formaction="./error.html" value="Buscar">
                 </form>
             </div>
             <div class="card mx-5" style="width: 18rem;">
@@ -262,10 +265,10 @@
                 Categorías
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="" class="lista">Alimentación</a></li>
-                <li class="list-group-item"><a href="" class="lista">Productos Naturales</a></li>
-                <li class="list-group-item"><a href="" class="lista">Deportes</a></li>
-                <li class="list-group-item"><a href="" class="lista">Salud</a></li>
+                <li class="list-group-item"><a href="./error.html" class="lista">Alimentación</a></li>
+                <li class="list-group-item"><a href="./error.html" class="lista">Productos Naturales</a></li>
+                <li class="list-group-item"><a href="./error.html" class="lista">Deportes</a></li>
+                <li class="list-group-item"><a href="./error.html" class="lista">Salud</a></li>
               </ul>
             </div>
             <div class="card text-white mt-4 mx-5 d-none d-md-block" style="width: 18rem;">
@@ -275,26 +278,26 @@
           </div>
           
           <div class="row">
-            <div class="col col-md-9 d-flex justify-content-center">
-              <nav aria-label="Page navigation example">
+            <div class="col-12 col-md-9">
+              <nav aria-label="Page navigation example" class="d-flex justify-content-center">
                 <ul class="pagination mt-4">
                   <li class="page-item">
-                    <a class="page-link text-secondary" href="#" aria-label="Previous">
+                    <a class="page-link text-secondary" href="./error.html" aria-label="Previous">
                       <span aria-hidden="true">&laquo;</span>
                     </a>
                   </li>
-                  <li class="page-item"><a class="page-link text-secondary" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link text-secondary" href="./error.html">1</a></li>
+                  <li class="page-item"><a class="page-link text-secondary" href="./error.html">2</a></li>
+                  <li class="page-item"><a class="page-link text-secondary" href="./error.html">3</a></li>
                   <li class="page-item">
-                    <a class="page-link text-secondary" href="#" aria-label="Next">
+                    <a class="page-link text-secondary" href="./error.html" aria-label="Next">
                       <span aria-hidden="true">&raquo;</span>
                     </a>
                   </li>
                 </ul>
               </nav>
             </div>
-            <div class="col col-md-3"></div>
+            <div class="col-12 col-md-3"></div>
           </div>
           
         </section>
@@ -307,7 +310,7 @@
                       <form>
                           <input type="text" name="Name" placeholder="Nombre" required class="my-3">
                           <input type="email" name="Email" placeholder="Email" required  class="my-3">
-                          <input type="submit" value="Suscribite" class="btn boton boton-hover border-success"> 
+                          <input type="submit" value="Suscribite" formaction="./error.html" class="btn boton boton-hover border-success"> 
                       </form>
                     </div>
           </div>
@@ -338,7 +341,7 @@
                   </div>
                   <div
                     class="d-flex align-items-center  justify-content-center justify-content-sm-start mb-lg-0 mb-sm-3 mb-0 ">
-                    <a class="a-info" href="./acercade.html"> <strong> Sobre nosotros</strong></a>
+                    <a class="a-info" href="./acercade.html"> <strong> Quiénes Somos</strong></a>
                   </div>
                   <div class="d-flex align-items-center justify-content-center justify-content-sm-start ">
                     <a class="a-info" href=""> <strong> Login</strong></a>
@@ -355,21 +358,21 @@
             <!-- columna-redes -->
             <div
               class="col-lg-4 col-sm-12 col-12  d-flex align-items-center justify-content-center column-footer column-footer-redes">
-              <div class="icon-before-facebook"><a href=""><i
+              <div class="icon-before-facebook"><a href="./error.html"><i
                     class="fa-brands fa-facebook fs-1  me-2 redes-icono"></i></a>
               </div>
-              <div class="icon-before-twitter"><a href=""><i class="fa-brands fa-twitter fs-1  me-2 redes-icono"></i></a>
+              <div class="icon-before-twitter"><a href="./error.html"><i class="fa-brands fa-twitter fs-1  me-2 redes-icono"></i></a>
               </div>
-              <div class="icon-before-instagram"><a href=""><i
+              <div class="icon-before-instagram"><a href="./error.html"><i
                     class="fa-brands fa-instagram fs-1  me-2 redes-icono"></i></a>
               </div>
-              <div class="icon-before-whatsapp"><a href=""><i
+              <div class="icon-before-whatsapp"><a href="./error.html"><i
                     class="fa-brands fa-whatsapp fs-1  me-2 redes-icono"></i></a>
               </div>
-              <div class="icon-before-linkedin"><a href=""><i
+              <div class="icon-before-linkedin"><a href="./error.html"><i
                     class="fa-brands fa-linkedin-in fs-1  me-2 redes-icono"></i></a>
               </div>
-              <div class="icon-before-gmail"><a href=""><i
+              <div class="icon-before-gmail"><a href="./error.html"><i
                     class="fa-brands fa-google-plus-g fs-1  me-2 redes-icono"></i></a>
               </div>
             </div>
