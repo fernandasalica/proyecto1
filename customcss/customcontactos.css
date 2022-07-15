@@ -1,9 +1,9 @@
 
 
-.contactos-contenedor{height: 85vh;}
+.contactos-contenedor{height: 35rem;}
 
 .icon{color: #ACCF51;}
-.icon-c{width: 4rem;}
+.icon-c{width: 3rem;}
 .icon-user{margin-left: 1px;}
 
 .btn-enviar{background-color: #ACCF51;}
@@ -11,4 +11,4 @@
 
 .titulos-contacto{color: #ACCF51;}
 
-.ubicacion{margin-bottom: 8rem;}
+.ubicacion{margin-bottom: 3rem ;}

@@ -52,6 +52,14 @@ body {
     background-size: cover;
     background-position: center center; 
     background-repeat: no-repeat;
+    height: 100vh;
+} */
+   
+/* .imagen-slider1 {
+    background-image: url("../img/hero1.jpg");  
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
    
 }
 
@@ -61,6 +69,7 @@ body {
     height: 100vh;
 
 }
+
 
 .imagen-slider3 {
     background-image: url("../img/hero3.jpg"); 
@@ -131,6 +140,52 @@ body {
     height: 100%;
   }
 /* FIN LOGIN */
+
+/* INICIO PAGINA ERROR */
+.page_404
+ {
+padding: 40px 0;
+background: #fff;
+font-family: "Arvo", serif;
+
+ }
+ .page_404 img 
+ {
+    width: 100%;
+    
+ }
+ .four_zero_four_bg
+ {
+  
+    background-image: url(../img/Errorcavernicola.gif);
+    height: 350px;
+    
+    background-position: center;
+    background-size: cover;
+    ;
+ }
+ .four_zero_four_bg h1
+ {
+    font-size: 80px;
+   
+   }
+   .four_zero_four_bg h3 {
+      font-size: 80px;
+     
+ }
+ .link_404{
+   color: #fff !important;
+   padding: 10px 20px;
+   background:#39ac31 ;
+   margin: 20px 0;
+   display: inline-block;
+   text-decoration: none;
+ }
+ .contant_box_404
+ {
+   margin-top: -10px;
+ }
+/* INICIO PAGINA ERROR */
 
 @media (max-width:720px) {
     .img-arandano {
