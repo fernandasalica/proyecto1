@@ -32,7 +32,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
               <li class="nav-item">
-                <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="#">Login</a></button>
+                <button class="btn boton border-success me-2 my-1 btn-nav" type="submit"><a href="./login.html">Login</a></button>
               </li>
               <li class="nav-item">
                  <!-- boton modal -->
@@ -220,9 +220,36 @@
                     </div>
                   </form>
                   <div class="my-3 text-start">
-                    <span>No tienes cuenta? <a href="#">Registrate</a></span>
+                    <span>No tienes cuenta? <a href="./error.html">Registrate</a></span>
                     <br />
-                    <span><a href="#">Recuperar Contraseña</a></span>
+                    <span>
+                      <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" 
+                      data-bs-target="#exampleModal" data-bs-whatever="olvidemicontraseña">Recuperar Contraseña</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Recuperar Contraseña</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form> 
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Email</label>
+            <input type="mail" class="form-control" id="email-name">
+          </div>
+          <div><p>Te mandaremos un link a tu mail para poder renovar la contraseña</p></div>
+        </form>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn boton border-success me-2 my-1 btn-nav"><a href="./error.html">Enviar</a></button>
+          </button>
+          <button type="button" class="btn boton border-success me-2 my-1 btn-nav" data-bs-dismiss="modal"><a href="./error.html">Cerrar</a>
+      </div>
+    </div>
+  </div>
+</div>
+                    </span>
                   </div>
                   <form action="">
                     <div class="container w-100 my-1">
