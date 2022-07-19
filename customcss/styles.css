@@ -29,7 +29,7 @@ body {
 
 .btn-nav{background-color: #ACCF51;} 
 .btn-nav:hover{background-color:#617a20 !important; color: white;}
-@media (max-width: 992px){.btn-nav{width: 35% !important;}}
+@media (max-width: 992px){.btn-nav{width: 10rem !important;}}
 /* navbar */
 
 /* INICIO SECCION NAVBAR */
