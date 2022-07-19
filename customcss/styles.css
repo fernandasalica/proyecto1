@@ -48,38 +48,6 @@ body {
 
 /* FIN SECCION NAVBAR */
 
-/* INICIO SECCION SLIDER */
-/* .imagen-slider1 {
-    background-image: url("../img/hero1.jpg");  
-    background-size: cover;
-    background-position: center center; 
-    background-repeat: no-repeat;
-    height: 100vh;
-} */
-   
-/* .imagen-slider1 {
-    background-image: url("../img/hero1.jpg");  
-    background-size: cover;
-    background-position: center center; 
-    background-repeat: no-repeat;
-   
-}
-
-.imagen-slider2 {
-    background-image: url("../img/hero2.jpg"); 
-    background-size: cover;
-    height: 100vh;
-
-}
-
-
-.imagen-slider3 {
-    background-image: url("../img/hero3.jpg"); 
-    background-size: cover;
-    height: 100vh;
-
-} */
-/* FIN SECCION SLIDER */
 
 /* INICIO SECCION CATEGORIAS */
 .lista {
@@ -93,6 +61,9 @@ body {
 /* INICIO SECCION CATEGORIAS */
 
 /* INICIO SECCION NEWSLETTER */
+.contenedor-busquedacat-responsive{margin-top: 5rem;}
+
+
 .newsletter {
     background: url('../img/feed-7.jpg') no-repeat center center/cover;
     padding: 0;
